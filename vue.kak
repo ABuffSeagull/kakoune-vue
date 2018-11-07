@@ -20,7 +20,7 @@ add-highlighter shared/vue/sass region  <style\b.*?lang="sass".*?>\K        (?=<
 add-highlighter shared/vue/less region  <style\b.*?lang="less".*?>\K        (?=</style>)    ref less
 add-highlighter shared/vue/css  region  <style\b.*?>\K                      (?=</style>)    ref css
 add-highlighter shared/vue/ts   region  <script\b.*?lang="typescript".*?>\K (?=</script>)   ref ts
-add-highlighter shared/vue/js   region  <script\b.*?>\K                     (?=</script>)   ref ecmascript
+add-highlighter shared/vue/js   region  <script\b.*?>\K                     (?=</script>)   ref javascript
 
 add-highlighter shared/vue/tag/base default-region group
 add-highlighter shared/vue/tag/ region '"' (?<!\\)(\\\\)*" fill string
